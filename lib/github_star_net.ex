@@ -1,0 +1,2 @@
+defmodule GithubStarNet do
+end
