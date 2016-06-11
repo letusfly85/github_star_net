@@ -1,3 +1,5 @@
-%{"connection": {:hex, :connection, "1.0.2"},
-  "decimal": {:hex, :decimal, "1.1.1"},
-  "marco_polo": {:hex, :marco_polo, "0.2.2"}}
+%{"connection": {:hex, :connection, "1.0.2", "f4a06dd3ecae4141aa66f94ce92ea4c4b8753069472814932f1cadbc3078ab80", [:mix], []},
+  "decimal": {:hex, :decimal, "1.1.1", "a8ff5b673105e6cdaca96f799aeefc6f07142881b616c65db16e14e556b16e76", [:mix], []},
+  "fs": {:hex, :fs, "0.9.2", "ed17036c26c3f70ac49781ed9220a50c36775c6ca2cf8182d123b6566e49ec59", [:rebar], []},
+  "marco_polo": {:hex, :marco_polo, "0.2.2", "40c47150cb2e94665b2f5f9e03c182d5de7861e44294516d5d884305ee2d1e48", [:mix], [{:decimal, "~> 1.1.0", [hex: :decimal, optional: false]}, {:connection, "~> 1.0.0", [hex: :connection, optional: false]}]},
+  "mix_test_watch": {:hex, :mix_test_watch, "0.2.6", "9fcc2b1b89d1594c4a8300959c19d50da2f0ff13642c8f681692a6e507f92cab", [:mix], [{:fs, "~> 0.9.1", [hex: :fs, optional: false]}]}}

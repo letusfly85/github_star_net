@@ -27,6 +27,9 @@ defmodule GithubStarNet.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:marco_polo, "~> 0.1"}]
+    [
+     {:mix_test_watch, "~> 0.2", only: [:dev, :test]},
+     {:marco_polo, "~> 0.1"}
+    ]
   end
 end
